@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>CB41321F-9413-4208-9E0E-303B7B3F985D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-626.000000, -2945.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="content" transform="translate(0.000000, 150.000000)">
+                <g id="section-3" transform="translate(90.000000, 1738.000000)">
+                    <g id="pagination" transform="translate(536.000000, 1037.000000)">
+                        <path fill="#fff" d="M13.4677675,20.2105501 C13.1953001,19.9298166 12.7418228,19.9298166 12.4598285,20.2105501 C12.1873611,20.4817993 12.1873611,20.933249 12.4598285,21.203866 L17.5706574,26.2918436 L0.705620832,26.2918436 C0.312480152,26.2924758 0,26.6035588 0,26.9949417 C0,27.3863246 0.312480152,27.7075242 0.705620832,27.7075242 L17.5706574,27.7075242 L12.4598285,32.7860175 C12.1873611,33.066751 12.1873611,33.518833 12.4598285,33.7894499 C12.7418228,34.0701834 13.1959352,34.0701834 13.4677675,33.7894499 L19.7885043,27.4969741 C20.0704986,27.2257249 20.0704986,26.7742751 19.7885043,26.5036582 L13.4677675,20.2105501 Z" id="pagination_left" transform="translate(10.000000, 27.000000) scale(-1, -1) translate(-10.000000, -27.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
