@@ -187,33 +187,34 @@ $(document).ready(function () {
 // //    Новый вид Конуструкторов(Клаас)
 //
 //
-//
-//     class Animal {
-//         constructor (name)   {
-//             this.name = name;
-//             this.sound = ""
-//         }
-//         voice ()    {
-//             console.log(this.sound)
-//         }
-//     }
-//
-//     class Dog extends Animal    {
-//         constructor(name)   {
-//             super(name);
-//             this.sound = "Gav"
-//         }
-//     }
-//     class Cat extends Animal    {
-//         constructor(name)   {
-//             super(name)
-//             this.sound = "naxuyaaaaaa"
-//         }
-//     }
-//     const dog = new Dog("Bubit");
-//     const cat = new Cat("Rozbiynik");
-//     cat.voice();
-//     dog.voice();
+
+    class Animal {
+        constructor (name)   {
+            this.name = name;
+            this.sound = ""
+        }
+        voice ()    {
+            console.log(this.sound)
+        }
+    }
+
+    class Dog extends Animal    {
+        constructor(name)   {
+            super(name);
+            this.sound = "Gav"
+        }
+    }
+    class Cat extends Animal    {
+        constructor(name)   {
+            super(name)
+            this.sound = "naxuyaaaaaa"
+        }
+    }
+    const dog = new Dog("Bubit");
+    const cat = new Cat("Rozbiynik");
+    cat.voice();
+    dog.voice();
+
 //
 //
 // let selectAllButton = document.getElementById('test');
@@ -255,33 +256,33 @@ $(document).ready(function () {
 // //     console.log(value2);
 // //
 // // Метод Some
-//
-//     const value3 = data.every(i => i > 10);
-//     const value4 = data.every(i => i > 3);
-//
-//     console.log(value3);
-//     console.log(value4);
-//
-//     const users = [
-//         {id: 1, name:"Don", isAdmin: true},
-//         {id: 2, name: "lox", isAdmin: false},
-//         {id: 3, name:"fargo", isAdmin: true}
-//     ];
-//
-//     const filtered = users.filter(item => item.isAdmin == true);
-//     console.log(filtered);
-//
-//
-//     let mainData = ['fits', 'sec', 'six'];
-//     let mainUsers = [
-//         {id: 1, name:"Xuma", isAdmin: true},
-//         {id: 2, name: "Ssser", isAdmin: false},
-//         {id: 3, name:"fartux", isAdmin: true}
-//     ];
-//
-//     for (let i in mainUsers[0]) {
-//         console.log(i)
-//     }
+
+    // const value3 = data.every(i => i > 10);
+    // const value4 = data.every(i => i > 3);
+    //
+    // console.log(value3);
+    // console.log(value4);
+    //
+    // const users = [
+    //     {id: 1, name:"Don", isAdmin: true},
+    //     {id: 2, name: "lox", isAdmin: false},
+    //     {id: 3, name:"fargo", isAdmin: true}
+    // ];
+    //
+    // const filtered = users.filter(item => item.isAdmin == true);
+    // console.log(filtered);
+    //
+    //
+    // let mainData = ['fits', 'sec', 'six'];
+    // let mainUsers = [
+    //     {id: 1, name:"Xuma", isAdmin: true},
+    //     {id: 2, name: "Ssser", isAdmin: false},
+    //     {id: 3, name:"fartux", isAdmin: true}
+    // ];
+    //
+    // for (let i in mainUsers[0]) {
+    //     console.log(i)
+    // }
 
 //    метод in
 
@@ -309,10 +310,52 @@ $(document).ready(function () {
 
     });
 
-
-
-
-
+//
+//
+// $('#checkbox').on('click', function (ob) {
+//     ob.stopPropagation();
+//     $(this).toggleClass("white");
+//     $("body").toggleClass("white");
+//
+//
+//
+//
+// });
+//
+// let navigationWhite = $(".intro-nav-link");
+// let infoTitle = $('h1, h2, h3, h4');
+// let link = $(".easy-point");
+// let socialImage = $(".clients-row__item");
+// let blackImage = $("image-white");
+// let owlBlack = $(".owl-carousel");
+//
+//
+//
+//     $('.checkbox-label').on('click', function (e) {
+//
+//         navigationWhite.toggleClass("nav-white");
+//         infoTitle.toggleClass("nav-white");
+//         link.toggleClass("nav-white");
+//         socialImage.toggleClass("clients-row__black");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//     });
 
 });
 
