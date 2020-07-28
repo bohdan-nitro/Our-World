@@ -48,7 +48,7 @@ $(document).ready(function () {
         slideTransition: "linear",
         smartSpeed: 400,
         startPosition: 0,
-        navText: ['<img src="../images/src/pagination_left.svg">', '<img src="../images/src/pagination_right.svg">'],
+        navText: ['<img src="./images/src/pagination_left.svg">', '<img src="./images/src/pagination_right.svg">'],
         responsive: {
             0: {
                 items: 1
@@ -104,7 +104,7 @@ $(document).ready(function () {
         slideTransition: "linear",
         smartSpeed: 400,
         startPosition: 0,
-        navText: ['<img src="../images/src/pagination_left.svg">', '<img src="../images/src/pagination_right.svg">'],
+        navText: ['<img src="./images/src/pagination_left.svg">', '<img src="./images/src/pagination_right.svg">'],
         responsive: {
             0: {
                 items: 1
