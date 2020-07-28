@@ -87,7 +87,6 @@ $(document).ready(function () {
 
         anime({
             targets: '.tabs__content',
-            // translateY: [400, -70],
             opacity: [0, 1],
             duration: 400
         })
