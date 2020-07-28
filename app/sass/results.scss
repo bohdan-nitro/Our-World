@@ -1,0 +1,82 @@
+@import "vars";
+.results {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-top: 100px;
+
+    .collage {
+        width: 50%;
+        height: 500px;
+        background: url("../images/src/skate2.jpg") no-repeat left top / 80% 80%;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        border-radius: 15px;
+    }
+
+    .collage img {
+        display: block;
+        position: absolute;
+        width: 350px;
+        object-fit: cover;
+        height: 450px;
+        right: -50px;
+        bottom: -250px;
+        border-radius: 15px;
+
+    }
+
+    .easy {
+        margin-left: 130px;
+
+        .easy-title {
+            margin-bottom: 30px;
+        }
+
+        .easy-text {
+            margin-bottom: 62px;
+        }
+
+        .easy-point {
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 0.3em;
+            font-weight: 500;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            display: block;
+            text-decoration: none;
+
+            transition: all 0.4s ease;
+
+            &:hover {
+                color: $red;
+            }
+
+
+            .social-text {
+                padding-left: 15px;
+            }
+
+            .easy-photo__first {
+                transition: all 0.5s ease;
+            }
+
+            .easy-photo__first:hover {
+                transform: scale(1.3);
+
+            }
+
+            .easy-photo__second {
+                transition: all 0.5s ease;
+            }
+
+            .easy-photo__second:hover {
+                transform: scale(1.3);
+
+            }
+        }
+    }
+}

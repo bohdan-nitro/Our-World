@@ -1,0 +1,54 @@
+.social {
+    .create-box {
+        display: flex;
+        width: 100%;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        .create {
+            font-size: 17px;
+            letter-spacing: 0.3em;
+            position: relative;
+        }
+    }
+
+    .create-social__box {
+        width: 100%;
+        display: flex;
+        height: 100%;
+
+        .create-social {
+            display: block;
+            transition: all 0.5s ease-out;
+            width: 100%;
+            max-width: 25px;
+            position: absolute;
+            top: 110px;
+            left: 205px;
+
+            img {
+                width: 100%;
+                max-width: 30px;
+            }
+
+            &:nth-child(2) {
+                top: 60px;
+                left: 160px;
+            }
+
+            &:nth-child(3) {
+                top: 146px;
+                left: 157px;
+            }
+
+            .create-link {
+                text-decoration: none;
+                transition: all 0.4s ease;
+            }
+
+            .create-link:hover {
+                transform: scale(1.2);
+
+            }
+        }
+    }
+}
