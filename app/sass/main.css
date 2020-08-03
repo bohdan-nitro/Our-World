@@ -147,192 +147,6 @@ ul, li {
 .be-static {
   position: static; }
 
-@media screen and (max-width: 1200px) {
-  .gravity {
-    margin-top: 0;
-    height: auto; }
-    .gravity .nav .hero {
-      position: relative;
-      width: 100%;
-      height: 550px;
-      top: 0; }
-    .gravity .nav .responsive {
-      display: flex;
-      flex-flow: column;
-      align-items: center;
-      margin: 0 auto; }
-    .gravity .nav .container .row .video {
-      left: 50px;
-      bottom: -100px;
-      width: 250px;
-      height: 200px; }
-    .gravity .nav .offer .offer-count {
-      margin-top: 0; }
-      .gravity .nav .offer .offer-count .offer-count-title {
-        font-size: 32px; }
-      .gravity .nav .offer .offer-count .offer-count-text {
-        font-size: 17px; }
-      .gravity .nav .offer .offer-count .btn {
-        font-size: 12px; }
-    .gravity .be-static {
-      margin: 0 auto;
-      margin-top: 80px; }
-
-  .intro-nav-link {
-    display: none; }
-
-  .menu-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-
-  .works .works-tabs {
-    margin-left: 0; }
-  .works .works-wrap .works-wrap__item {
-    width: 30%; }
-    .works .works-wrap .works-wrap__item img {
-      display: block;
-      width: 100%; }
-
-  .problems {
-    padding-top: 100px; }
-    .problems .about .about-title {
-      font-size: 32px; }
-    .problems .about .about-text {
-      font-size: 17px; }
-
-  .services .slider {
-    margin-top: 50px; }
-  .services .section-title__heading {
-    font-size: 32px; }
-
-  .works {
-    padding-top: 315px; }
-    .works .section-title__heading {
-      font-size: 32px; }
-
-  .results .easy .easy-title {
-    font-size: 32px; }
-  .results .easy .easy-text {
-    font-size: 19px; }
-
-  .testimonials .contribution-title__heading {
-    font-size: 32px; } }
-@media screen and (max-width: 768px) {
-  .works .works-tabs {
-    margin-left: 0; }
-
-  .gravity .nav .hero {
-    position: relative;
-    width: 100%;
-    height: 200px;
-    top: 0;
-    max-width: 255px; }
-  .gravity .nav .offer .offer-count {
-    width: 100%; }
-  .gravity .nav .responsive {
-    align-items: center;
-    margin: 0 auto; }
-
-  .results .collage {
-    position: relative;
-    width: 100%;
-    max-width: 560px; }
-    .results .collage img {
-      width: 100%;
-      max-width: 300px;
-      height: 100%;
-      max-height: 380px; }
-  .results .easy {
-    margin-top: 0px;
-    margin-left: 65px; }
-  .results .easy-title {
-    font-size: 30px;
-    width: 100%;
-    max-width: 420px; }
-  .results .easy-text {
-    font-size: 17px;
-    width: 100%;
-    max-width: 420px; }
-
-  .owl-carousel .owl-item img {
-    width: 100%;
-    height: 100%;
-    max-height: 600px;
-    object-fit: cover; }
-
-  .problems {
-    padding-top: 60px; }
-    .problems .poster {
-      width: 100%;
-      height: auto;
-      max-width: 400px; }
-    .problems .about {
-      margin-top: 50px; }
-      .problems .about .about-title {
-        font-size: 30px;
-        width: 100%;
-        max-width: 380px; }
-      .problems .about .about-text {
-        font-size: 16px;
-        width: 100%;
-        max-width: 500px; }
-      .problems .about .about-author .about-name {
-        font-size: 18px; }
-
-  .works {
-    margin-top: 215px; }
-
-  .services .section-title__heading {
-    font-size: 27px; }
-  .services .serv-list__left {
-    font-size: 17px; }
-  .services .serv-list__right {
-    font-size: 17px; }
-
-  .testimonials .contribution-title__heading {
-    font-size: 32px; } }
-@media screen and (max-width: 450px) {
-  .works {
-    margin-top: 0;
-    padding-top: 120px; }
-    .works .section-title {
-      text-align: center; }
-    .works .section-title__heading {
-      font-size: 29px; }
-    .works .works-tabs {
-      letter-spacing: 0;
-      font-size: 13px; }
-
-  .results .easy {
-    margin-top: 315px; }
-    .results .easy .easy-title {
-      font-size: 26px; }
-    .results .easy .easy-text {
-      font-size: 16px; }
-
-  .testimonials {
-    padding-top: 220px; }
-    .testimonials .contribution-title__heading {
-      font-size: 26px; }
-    .testimonials .contribution-title {
-      text-align: center; }
-    .testimonials .contributor {
-      margin-top: 40px; }
-    .testimonials .owl-carousel .owl-item img {
-      height: 100%;
-      max-height: 480px; }
-
-  .clients {
-    padding-top: 80px; }
-    .clients .contribution-title__heading {
-      font-size: 32px;
-      text-align: center; }
-    .clients .clients-row {
-      margin-top: 80px; }
-      .clients .clients-row .clients-row__item {
-        width: 100%;
-        max-width: 50px; } }
 .btn {
   background-color: #e11e1e;
   color: #f8f8f8;
@@ -703,5 +517,231 @@ ul, li {
       transition: all 0.4s ease; }
     .social .create-social__box .create-social .create-link:hover {
       transform: scale(1.2); }
+
+@media screen and (max-width: 1200px) {
+  .gravity {
+    margin-top: 0;
+    height: auto; }
+    .gravity .nav .hero {
+      position: relative;
+      width: 100%;
+      height: 550px;
+      top: 0; }
+    .gravity .nav .responsive {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      margin: 0 auto; }
+    .gravity .nav .container .row .video {
+      left: 50px;
+      bottom: -100px;
+      width: 250px;
+      height: 200px; }
+    .gravity .nav .offer .offer-count {
+      margin-top: 0; }
+      .gravity .nav .offer .offer-count .offer-count-title {
+        font-size: 32px; }
+      .gravity .nav .offer .offer-count .offer-count-text {
+        font-size: 17px; }
+      .gravity .nav .offer .offer-count .btn {
+        font-size: 12px; }
+    .gravity .be-static {
+      margin: 0 auto;
+      margin-top: 80px; }
+
+  .intro-nav-link {
+    display: none; }
+
+  .menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .works .works-tabs {
+    margin-left: 0; }
+  .works .works-wrap .works-wrap__item {
+    width: 30%; }
+    .works .works-wrap .works-wrap__item img {
+      display: block;
+      width: 100%; }
+
+  .problems {
+    padding-top: 100px; }
+    .problems .about .about-title {
+      font-size: 32px; }
+    .problems .about .about-text {
+      font-size: 17px; }
+
+  .services .slider {
+    margin-top: 50px; }
+  .services .section-title__heading {
+    font-size: 32px; }
+
+  .works {
+    padding-top: 315px; }
+    .works .section-title__heading {
+      font-size: 32px; }
+
+  .results .easy .easy-title {
+    font-size: 32px; }
+  .results .easy .easy-text {
+    font-size: 19px; }
+
+  .testimonials .contribution-title__heading {
+    font-size: 32px; } }
+@media screen and (max-width: 768px) {
+  .works .works-tabs {
+    margin-left: 0; }
+
+  .gravity .nav .hero {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 0;
+    max-width: 255px; }
+  .gravity .nav .offer .offer-count {
+    width: 100%; }
+  .gravity .nav .responsive {
+    align-items: center;
+    margin: 0 auto; }
+
+  .results .collage {
+    position: relative;
+    width: 100%;
+    max-width: 560px; }
+    .results .collage img {
+      width: 100%;
+      max-width: 300px;
+      height: 100%;
+      max-height: 380px; }
+  .results .easy {
+    margin-top: 0;
+    margin-left: 65px; }
+  .results .easy-title {
+    font-size: 30px;
+    width: 100%;
+    max-width: 420px; }
+  .results .easy-text {
+    font-size: 17px;
+    width: 100%;
+    max-width: 420px; }
+
+  .owl-carousel .owl-item img {
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+    object-fit: cover; }
+
+  .problems {
+    padding-top: 60px; }
+    .problems .poster {
+      width: 100%;
+      height: auto;
+      max-width: 400px; }
+    .problems .about {
+      margin-top: 50px; }
+      .problems .about .about-title {
+        font-size: 30px;
+        width: 100%;
+        max-width: 380px; }
+      .problems .about .about-text {
+        font-size: 16px;
+        width: 100%;
+        max-width: 500px; }
+      .problems .about .about-author .about-name {
+        font-size: 18px; }
+
+  .works {
+    margin-top: 215px; }
+
+  .services .section-title__heading {
+    font-size: 27px; }
+  .services .serv-list__left {
+    font-size: 17px; }
+  .services .serv-list__right {
+    font-size: 17px; }
+
+  .testimonials .contribution-title__heading {
+    font-size: 32px; } }
+@media screen and (max-width: 450px) {
+  .gravity .nav {
+    padding: 0 10px; }
+    .gravity .nav .hero {
+      display: none; }
+    .gravity .nav .offer .offer-count {
+      margin-top: 40px; }
+
+  .problems {
+    height: 100% !important; }
+    .problems .poster {
+      width: 100%;
+      max-width: 330px;
+      margin-top: 0 !important; }
+    .problems .col-md-6 .about .about-title {
+      font-size: 32px;
+      letter-spacing: 1px; }
+
+  .services {
+    margin-top: 80px; }
+    .services .section-title__heading {
+      font-size: 24px; }
+    .services .serv-list {
+      margin-right: 40px; }
+
+  .results .col-md-6 .collage {
+    height: 265px;
+    width: 100%; }
+    .results .col-md-6 .collage .img-fluid {
+      display: none; }
+  .results .col-md-6 .easy {
+    padding: 0 10px;
+    margin-left: 0;
+    margin-top: 315px; }
+    .results .col-md-6 .easy .easy-title {
+      font-size: 25px; }
+    .results .col-md-6 .easy .easy-text {
+      line-height: 24px;
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin-bottom: 25px; }
+    .results .col-md-6 .easy .easy-point {
+      padding-top: 15px;
+      margin-bottom: 0; }
+
+  .works {
+    padding-top: 50px;
+    margin-top: 0; }
+    .works .section-title__heading {
+      font-size: 25px; }
+    .works .col-12 .works-tabs {
+      margin-left: 0;
+      letter-spacing: 0;
+      font-size: 13px; }
+    .works .col .works-wrap {
+      margin-top: 50px; }
+
+  .testimonials .col-md-6 .contribution-title__heading {
+    font-size: 26px; }
+  .testimonials .col-md-6 .contribution-description .description {
+    font-size: 16px; }
+    .testimonials .col-md-6 .contribution-description .description:nth-child(2) {
+      display: none; }
+  .testimonials .col-md-6 .contributor {
+    margin-top: 40px; }
+  .testimonials .col-md-6 .cont-photo {
+    max-height: 430px; }
+  .testimonials .owl-carousel .owl-item img {
+    max-height: 430px; }
+
+  .clients {
+    padding-top: 100px; }
+    .clients .contribution-title__heading {
+      font-size: 32px;
+      text-align: center; }
+    .clients .clients-row {
+      margin-top: 50px; }
+      .clients .clients-row .clients-row__item {
+        width: 100%;
+        max-width: 50px; } }
 
 /*# sourceMappingURL=main.css.map */
