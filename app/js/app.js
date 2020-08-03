@@ -1,5 +1,24 @@
 $(document).ready(function () {
 
+    let headerNavigationSelector = '.header .header-navigation';
+    let headerBurgerBtnSelector = '.header .header-burger-btn';
+    let headerLink = ".header .intro-nav-link";
+
+    //  Burger btn click
+    $(headerBurgerBtnSelector).on('click', function () {
+
+        $(headerNavigationSelector).toggleClass('active').fadeIn(300);
+
+        $(headerLink).on("click", function () {
+            $(headerNavigationSelector).removeClass("active");
+        });
+
+    });
+
+
+
+    /////////////////////////////////////////////////////////
+
 
     const menuToggle = '#menu-toggle';
 

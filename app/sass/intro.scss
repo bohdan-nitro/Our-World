@@ -22,6 +22,11 @@
 .header {
     display: flex;
     width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
     overflow: hidden;
 
     .top-panel {
@@ -29,7 +34,7 @@
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        height: 78px;
+        height: 40px;
         color: #f8f8f8;
     }
     .top-row-panel {
@@ -82,6 +87,17 @@
             }
         }
     }
+
+    .header-burger-btn {
+        display: none;
+    }
+    .header-navigation  {
+        width: 100%;
+        transition: all 0.4s ease;
+        border-radius: 15px;
+    }
+
+
 }
 
 .gravity {
