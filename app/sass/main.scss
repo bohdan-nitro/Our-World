@@ -60,38 +60,6 @@ ul, li {
     flex-direction: column;
 }
 
-.menu-icon {
-    position: relative;
-    z-index: 19;
-    display: none;
-    width: 30px;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.menu-icon-active {
-    .menu-icon-line {
-        background-color: transparent;
-        display: block;
-        transition: 0.2s;
-    }
-
-    .menu-icon-line:before {
-        transform: rotate(45deg);
-        top: 0;
-        transition: transform 0.2s ease-in;
-    }
-
-    .menu-icon-line:after {
-        transform: rotate(-45deg);
-        top: 0;
-        transition: transform 0.2s ease-in;
-    }
-}
-
-
 .scroll-to-top {
     position: fixed;
     right: 15px;
@@ -111,90 +79,6 @@ ul, li {
 }
 
 
-.menu-icon-line {
-    position: relative;
-    width: 30px;
-    height: 5px;
-    background-color: #f8f8f8;
-
-
-    &:after {
-        position: absolute;
-        content: "";
-        left: 0;
-        top: 10px;
-        width: 30px;
-        height: 5px;
-        background-color: #f8f8f8;
-        transition: transform 0.2s ease-in;
-
-
-    }
-
-    &:before {
-        position: absolute;
-        content: "";
-        left: 0;
-        top: -10px;
-        width: 30px;
-        height: 5px;
-        background-color: #f8f8f8;
-        transition: transform 0.2s ease-in;
-
-
-    }
-
-}
-
-.mobile-nav {
-    opacity: 0;
-    padding: 50px;
-    z-index: 6;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    width: 350px;
-    background-color: rgba(3, 3, 3, 0.7);
-
-    .mobile-nav:active {
-        opacity: 1;
-        display: block;
-    }
-
-    .mobile-nav__title {
-        font-size: 28px;
-        font-weight: 800;
-        margin-bottom: 30px;
-        color: #ff1f31;
-
-        .mobile-nav__list {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-
-        }
-
-    }
-
-    .mobile-nav__item {
-        margin-bottom: 30px;
-
-        .mobile-nav__link {
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 22px;
-            transition: color 0.2s ease-in;
-
-            &:hover {
-                color: #fc0b00;
-            }
-        }
-    }
-}
-
-
 .show {
     display: block;
 }
@@ -203,6 +87,17 @@ ul, li {
 .be-static {
     position: static;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 @import "intro";

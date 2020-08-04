@@ -1,4 +1,5 @@
 @import "vars";
+
 @media screen and (max-width: 1200px) {
 
     .gravity {
@@ -346,15 +347,9 @@
         }
     }
 
-
-
-
-
-
-
-
     .gravity {
         .nav {
+            margin-top: 50px;
             padding: 0 10px;
 
             .hero {

@@ -7,13 +7,14 @@
         margin-top: 140px;
         width: 100%;
         border-radius: 15px;
-
+        transition: all 0.3s ease;
         img {
             object-fit: cover;
             width: 100%;
             max-width: 720px;
             height: 100%;
         }
+
     }
 
     .about {
@@ -23,14 +24,17 @@
             font-size: 40px;
             margin-bottom: 30px;
             width: 100%;
+
         }
         .about-text {
             width: 100%;
             padding: 0 10px;
+
         }
         .about-link {
             width: 100%;
             max-width: 200px;
+
         }
     }
 
@@ -38,9 +42,17 @@
         background: url("../images/src/user.svg") no-repeat left center;
         padding: 5px 0 5px 110px;
         margin-top: 40px;
+
         .about-name {
             font-size: 20px;
             padding-top: 15px;
+
         }
     }
 }
+
+
+
+
+
+
